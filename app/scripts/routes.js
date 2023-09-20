@@ -74,6 +74,10 @@ angular.module('learnCodeApp')
         templateUrl: 'views/account.html',
         controller: 'AccountCtrl'
       })
+      .when('/Host', {
+        templateUrl: 'views/host.html',
+        controller: 'HostCtrl'
+      })
       .otherwise({redirectTo: '/'});
   }])
 
